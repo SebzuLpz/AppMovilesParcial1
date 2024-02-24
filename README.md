@@ -1,3 +1,4 @@
+JUAN SEBASTIAN LÓPEZ PARRA.
 Codigos java se encuentran en:
 - Parcial1/app/src/main/java.
 - 
