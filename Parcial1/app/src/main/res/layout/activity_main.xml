@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#828385"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#003EF6"
+        android:backgroundTint="#00FFFFFF"
+        android:text="NÚMERO 1:"
+        android:textColor="#FF0303"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO 2:"
+        android:textColor="#FF0303"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#009688"
+        android:text="+"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#009688"
+        android:text="-"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#009688"
+        android:text="x"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#009688"
+        android:text="/"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="193dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#6F0AFD"
+        android:text="CALCULAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="75dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:background="#fff"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="75dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:background="#fff"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        android:textColor="#6002F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="155dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
